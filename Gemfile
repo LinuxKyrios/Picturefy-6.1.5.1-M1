@@ -60,6 +60,6 @@ group :development, :test do
 end
 
 # Use postgresql for Heroku deployment
-do
+group :production do
     gem 'pg', '~> 1.3', '>= 1.3.5'
 end
