@@ -1,4 +1,6 @@
-<%= render 'home/header' %>
-
-<h1>Pierwszy rzut na aplikację</h1>
-<p>Później pewnie będzie wyglądałą inaczej</p>
+<div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>Pierwszy rzut na aplikację</h1>
+    <p>Później pewnie będzie wyglądała inaczej</p>
+    <%= link_to 'About me', home_about_path, class: 'btn btn-success btn-lg' %>
+    <%= link_to 'Main page', root_path, class: 'btn btn-secondary' %>
+</div>

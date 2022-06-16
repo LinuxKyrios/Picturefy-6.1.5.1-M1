@@ -65,3 +65,5 @@ group :production do
 end
 
 gem 'net-smtp', '~> 0.3.1'
+
+gem 'bootstrap', '~> 5.1', '>= 5.1.3'
