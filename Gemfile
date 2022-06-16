@@ -66,4 +66,8 @@ end
 
 gem 'net-smtp', '~> 0.3.1'
 
+# Bootstrap Gem for styling
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
+
+# Gem Devise for user manipulation
+gem 'devise', '~> 4.8', '>= 4.8.1'
