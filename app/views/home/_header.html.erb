@@ -8,6 +8,14 @@
       <ul class="navbar-nav navbar-right">
         <li><%= link_to 'Main page ', root_path %></li>
         <li><%= link_to 'About me', home_about_path %></li>
+
+        <% if user_signed_in? %>
+            <li><%= link_to 'Edycja profilu', edit_user_registration_path %></li>
+            <li><%= link_to 'Wylogowanie', destroy_user_session_path, method: :delete %></li>
+        <% else %>
+            <li><%= link_to 'Logowanie', new_user_session_path %></li>
+            <li><%= link_to 'Rejestracja', new_user_registration_path %></li>
+        <% end %>
       </ul>
     </div>
   </div>
