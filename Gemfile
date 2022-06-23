@@ -71,3 +71,6 @@ gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 
 # Gem Devise for user manipulation
 gem 'devise', '~> 4.8', '>= 4.8.1'
+
+# Gem Paperclip for adding images to pins
+gem 'paperclip', '~> 6.1'
